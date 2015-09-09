@@ -1,0 +1,41 @@
+
+html { 
+    background: url(../img/cascade.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+html body{
+    background: none;
+    color: #25b210;
+}
+.container{
+    background-color: #FFF;
+    opacity: .90;
+    position: relative;
+}
+
+ul li,p{
+    color: #25B210 ;
+    font-size: 16px;
+    line-height: 28px;
+}
+ul li{
+    list-style: none;
+}
+h2{
+    background-color: #25b210;
+    padding: 10px;
+    color: #FFF;
+}
+
+@media (max-width: 768px) {
+    h2{
+        font-size:22px;
+        line-height: 26px;
+    }
+    ul{
+        padding-left: 0;      
+    }
+}
